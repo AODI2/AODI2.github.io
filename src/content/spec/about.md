@@ -32,7 +32,7 @@
 
 如果你想和我交流问题，分享有趣的想法，或者只是想打个招呼，欢迎通过以下方式联系我：
 
-- 💻 **GitHub**: [CuteLeaf](https://github.com/Wine-Red)
+- 💻 **GitHub**: [WineRed](https://github.com/Wine-Red)
 - ✉️ **Email**: <winered0v0@qq.com>
 
 ***

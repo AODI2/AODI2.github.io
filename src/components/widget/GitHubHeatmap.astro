@@ -118,7 +118,8 @@ function buildWeeks(days: ContributionDay[]) {
 	if (days.length === 0) return [] as Array<Array<ContributionDay | null>>;
 
 	const rangeStart = parseISODate(days[0].date);
-	const rangeEnd = parseISODate(days.at(-1)?.date);
+	const lastDay = days.at(-1);
+		const rangeEnd = parseISODate(lastDay ? lastDay.date : days[0].date);
 	const calendarStart = addDays(rangeStart, -rangeStart.getUTCDay());
 	const calendarEnd = addDays(rangeEnd, 6 - rangeEnd.getUTCDay());
 	const dayMap = new Map(days.map((day) => [day.date, day]));
